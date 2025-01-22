@@ -1,6 +1,6 @@
 <?php
 // Configuración de la base de datos (lee de variables de entorno)
-$db_host = getenv('DB_HOST') ?: 'sql100.infinityfree.com';
+$db_host = getenv('DB_HOST') ?: 'sql100.infinityfree.com:3306';
 $db_user = getenv('DB_USER') ?: 'if0_38155330';
 $db_password = getenv('DB_PASSWORD') ?: 'dx9PbmLh9xyl2';
 $db_name = getenv('DB_NAME') ?: 'if0_38155330_mytrip';
