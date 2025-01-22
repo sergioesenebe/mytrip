@@ -4,7 +4,7 @@ $db_host = getenv('DB_HOST');
 $db_user = getenv('DB_USER');
 $db_password = getenv('DB_PASSWORD');
 $db_name = getenv('DB_NAME');
-echo $db_host
+echo $db_host;
 // Mostrar mensaje de inicio
 echo "<h1>¡Tu página PHP está funcionando!</h1>";
 
