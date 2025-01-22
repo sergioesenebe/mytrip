@@ -4,7 +4,7 @@ $db_host = getenv('DB_HOST');
 $db_user = getenv('DB_USER');
 $db_password = getenv('DB_PASSWORD');
 $db_name = getenv('DB_NAME');
-
+echo $db_host
 // Mostrar mensaje de inicio
 echo "<h1>¡Tu página PHP está funcionando!</h1>";
 
@@ -19,5 +19,5 @@ if ($conn->connect_error) {
     echo "<p style='color: green;'>Conexión exitosa a la base de datos</p>";
     $conn->close();
 }
-echo $db_host
+
 ?>
